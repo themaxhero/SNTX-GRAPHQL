@@ -1,5 +1,6 @@
 defmodule SntxGraph.UserResolver do
   import SntxWeb.Payload
+  import SntxWeb.Gettext
 
   alias Sntx.{Repo, Guardian, UserMailer}
   alias Sntx.User.{Account, Activations, Auth, Passwords}
